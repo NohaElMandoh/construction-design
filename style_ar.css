@@ -2077,7 +2077,7 @@ blockquote {
   padding: 0;
 }
 .mean-container a.meanmenu-reveal {
-  margin-top: -88px;
+  margin-top: -58px;
 }
 :focus {
     outline: -webkit-focus-ring-color auto 0px;
@@ -2216,6 +2216,6 @@ margin-right: 30px;
 @media(max-width: 768px){
     .logo {
         max-width: 123px;
-    height: 70px;
+    height: 80px;
     }
 }
