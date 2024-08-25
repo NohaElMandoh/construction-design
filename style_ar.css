@@ -2123,7 +2123,7 @@ marquee ul li .imgMarquee img{
 
 }
 .footer__link ul.ft__menu + ul.ft__menu{
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .footer.quick__link {
@@ -2193,3 +2193,6 @@ float: right ;
   .blog__btn a i{
     float: left;
   }
+  /* .ft__menu:last-of-type {
+margin-right: 30px;
+  } */
