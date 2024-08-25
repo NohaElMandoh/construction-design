@@ -52,7 +52,12 @@
 
 */
 
-
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
 /*---------------------------------------
   02. Scroll To Top
 ----------------------------------------*/
