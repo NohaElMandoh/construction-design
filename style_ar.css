@@ -2201,3 +2201,11 @@ margin-right: 30px;
         padding-right: 10px;
     }
 }
+
+
+
+@media (max-width: 767px) {
+    .proj_details {
+        flex-direction: column;
+    }
+}
