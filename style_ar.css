@@ -145,6 +145,7 @@
     margin-left: -15px;
     margin-right: -15px;
     transition: all 0.5s ease 0s;
+    
 }
 .about__inner h2 {
     color: #ffffff;
@@ -171,9 +172,11 @@
     color: #000;
 }
 .about__icon {
-    position: relative;
+    /* position: relative; */
     text-align: right;
-    top: -11px;
+    /* top: -11px; */
+    position: absolute;
+    bottom: 20px;
 }
 .about__btn {
     margin-top: 10px;
@@ -200,6 +203,9 @@
 .about__inner {
   background: #1f2d30 none repeat scroll 0 0;
   padding: 60px 26px 22px;
+  height: 300px;
+  position: relative;
+  margin-right: 10px;
 }
 .about:hover .about__inner.about__hober__info {
     transform: scaleY(1);
@@ -208,7 +214,10 @@
     padding-top: 20px;
 }
 .about__inner.about__hober__info .about__icon {
-    top: 31px;
+    /* top: 31px;
+     */
+     position: absolute;
+     bottom: 20px;
 }
 .about__icon img {
     max-height: 39px;
@@ -275,7 +284,7 @@ About 2
 .section__title p {
     color: #606060;
     margin: 21px auto auto;
-    width: 57%;
+    /* width: 57%; */
 }
 .service__thumb a img {
     width: 100%;
@@ -325,7 +334,7 @@ About 2
 }
 .service__details h2 {
     color: #1f2d30;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     margin-top: 18px;
     text-align: center;
@@ -486,16 +495,16 @@ About 2
     font-weight: 700;
 }
 .project__hover__info::before {
-    /* border: 1px solid #fff;
+    /* border: 1px solid #fff;*/
     bottom: 50px;
     content: "";
     height: auto;
-    left: 45px;
+    /* left: 45px; */
     position: absolute;
-    right: 45px;
+    /* right: 45px; */
     top: 50px;
     width: auto;
-    z-index: 2; */
+    z-index: 2; 
 }
 
 .project__action h4 {
@@ -520,7 +529,7 @@ About 2
 }
 .project__thumb a img {
     width: 100%;
-    height:430px;
+    height:300px;
 }
 .project__thumb a .img1 {
     width: 100%;
@@ -1217,6 +1226,7 @@ About 2
 
 .htc__mission__area {
     position: relative;
+    height: 400px;
 }
 .htc__offer__thumb {
     position: absolute;
@@ -1231,17 +1241,26 @@ About 2
 }
 .single__mission h2 {
     color: #1f2d30;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 12px;
     text-transform: uppercase;
+    padding-right: 33px;
 }
 .single__mission p {
     padding-right: 33px;
 }
 
 
-
+.single__mission_pages {
+    text-align: right;
+    
+}
+.single__mission_pages p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
 
 /*---------------------------------------
   17. Project Area
@@ -1671,6 +1690,11 @@ blockquote {
 }
 .htc__service__dtl {
     margin-top: 55px;
+    text-align: right;
+}
+.htc__service__dtl p{
+    font-size: 20px;
+    line-height: 30px;
 }
 .title__line--4 {
     color: #1f2d30;
@@ -1700,9 +1724,12 @@ blockquote {
 
 .pro__dtl__inner {
     padding: 70px 40px;
+    text-align: right;
 }
 .pro__dtl__content {
     display: flex;
+    flex-direction: row-reverse;
+  
 }
 .pro__dtl__list li {
     color: #1f2d30;
@@ -1747,6 +1774,8 @@ blockquote {
     margin-left: -20px;
     margin-right: -20px;
     margin-top: 70px;
+    flex-direction: row-reverse;
+    text-align: right;
 }
 .single__project__details h2 {
     color: #1f2d30;
@@ -2102,4 +2131,50 @@ marquee ul li .imgMarquee img{
   }
   .ht__address__icon{
     margin-left: 20px;
+  }
+
+  .section__title_pages h2.title__line {
+    text-align: center;
+  }
+
+  .section__title_pages p{
+    text-align: right;
+    width: 100%;
+    font-size: large;
+    line-height: 35px;
+  }
+  .htc__about__area{
+    text-align: right;
+  }
+  .about__icon{
+    text-align: left;
+  }
+
+  .htc__contact__area{
+    text-align: right;
+  }
+  .htc__contact__inner p{
+    text-align:  right;
+    width: 100%;
+    font-size: larger;
+  }
+  .htc__address__container{
+    flex-direction: row-reverse;
+  }
+  .ct__address{
+    flex-direction: row-reverse;
+  }
+  .ct__details{
+    padding-right: 20px;
+  }
+ .single-contact-inner{
+    flex-direction: row-reverse;
+  }
+  @media (min-width: 768px) {
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+float: right ;
+  }}
+  .proj_details{
+    display: flex;
+    flex-direction: row;
   }

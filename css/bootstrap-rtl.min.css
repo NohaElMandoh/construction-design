@@ -2773,7 +2773,20 @@ pre code {
     .col-lg-12 {
         float: right
     }
-
+    .htc__mission__area_pages .col-lg-1,
+    .htc__mission__area_pages .col-lg-2,
+    .htc__mission__area_pages .col-lg-3,
+    .htc__mission__area_pages .col-lg-4,
+    .htc__mission__area_pages .col-lg-5,
+    .htc__mission__area_pages .col-lg-6,
+    .htc__mission__area_pages  .col-lg-7,
+    .htc__mission__area_pages  .col-lg-8,
+    .htc__mission__area_pages .col-lg-9,
+    .htc__mission__area_pages .col-lg-10,
+    .htc__mission__area_pages .col-lg-11,
+    .htc__mission__area_pages .col-lg-12  {
+        float: right
+    }
     .col-lg-12 {
         width: 100%
     }
@@ -2971,7 +2984,7 @@ pre code {
     }
 
     .col-lg-offset-1 {
-        margin-right: 8.33333333%
+        /* margin-right: 8.33333333% */
     }
 
     .col-lg-offset-0 {
