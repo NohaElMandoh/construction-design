@@ -2208,4 +2208,7 @@ margin-right: 30px;
     .proj_details {
         flex-direction: column;
     }
+    .prodict-det-small li{
+        margin-bottom: 10px;
+    }
 }
