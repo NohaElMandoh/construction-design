@@ -2196,3 +2196,8 @@ float: right ;
   /* .ft__menu:last-of-type {
 margin-right: 30px;
   } */
+  @media (max-width: 767px) {
+    .offer__details p {
+        padding-right: 10px;
+    }
+}
