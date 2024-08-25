@@ -632,7 +632,8 @@
   margin-right: 0;
 }
 .single__cl__form input + input {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+ 
 }
 .blog__hover__info {
   padding: 0;
